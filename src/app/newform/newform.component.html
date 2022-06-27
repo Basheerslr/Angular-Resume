@@ -1,0 +1,230 @@
+
+  <div class="container mt-3">
+      <div class="row">
+
+          <div class="col-md-3">
+              <div class="card">
+                  <div class="card-header">
+                      <img src="C:\Users\basheer.v\Downloads\basheer photo.jpg" width="200" height="150">
+                  </div>
+                  <div class="card-body">
+                      <h3 id="firstname">{{formdata.firstname}}</h3>
+                  </div>
+                  <div class="card-footer m-3">
+                      <h5>Contact Info:</h5>
+                      <i class="fa fa-envelope">:<span id="email">{{formdata.email}}</span></i><br>
+                      <i class="fa fa-phone">:<span id="mobile">{{formdata.mobile}}</span></i><br>
+                      <i class="fa fa-address-book">:<span id="address">{{formdata.address}}</span></i><br>
+                  </div>
+              </div>
+              <div class="card">
+
+                  <div class="card-body m-3">
+                      <h5>Skils:</h5>
+                      <span class="skil-item" id="tech1">{{formdata.tech1}}</span><span class="skil-item" id="tech2">{{formdata.tech2}}</span><br>
+                      <span class="skil-item" class="mt-3" id="tech3">{{formdata.tech3}}</span>
+                  </div>
+              </div>
+
+              <div class="recognition bg-light m-3">
+                  <h5>Awards:{{formdata.Awards}}</h5>
+                  <span id="Awards"></span>
+              </div>
+              <div class="hobbies bg-light m-3">
+                  <h5>Hobbies:</h5>
+                  <span id="hobbies">{{formdata.hobbies}}</span>
+              </div>
+
+
+          </div>
+          <div class="col-md-9">
+              <div class="row">
+                  <div class="col-md-6">
+                      <p><i class="fa fa-phone"> 8788987988</i></p>
+                      <p><i class="fa fa-envelope"> hari@gmail.com</i></p>
+                  </div>
+                  <div class="col-md-6">
+                      <p><i class="fa fa-phone"> https://linkedin.com</i></p>
+                      <p><i class="fa fa-envelope"> https://github.com</i></p>
+                  </div>
+              </div>
+              <hr>
+
+              <h4>Career Objective</h4>
+              <div class="jumbotron">
+                  <p id="objective">{{formdata.objective}}</p>
+              </div>
+
+
+              <h4 style="color: black;">Qualification:</h4>
+              <div class="jumbotron">
+                  <div class="row visible-md visible-lg">
+                      <div class="form-group col-md-3">
+                          <label>Education</label>
+                      </div>
+                      <div class="form-group col-md-3">
+                          <label>School/University</label>
+                      </div>
+                      <div class="form-group col-md-3">
+                          <label>Year of Passing</label>
+                      </div>
+                      <div class="form-group col-md-3">
+                          <label>Percentage/CGPA</label>
+                      </div>
+
+                  </div>
+                  <div class="row">
+                      <div class="form-group col-md-3">
+                          <!-- <label class="visible-xs visible-sm">First Name</label>
+                          Jake -->
+                          <label>Graduation: </label>
+
+
+                      </div>
+                      <div class="form-group col-md-3">
+                          <div id="university1">{{formdata.university1}}</div>
+                      </div>
+                      <div class="form-group col-md-3">
+                          <!-- <label class="visible-xs visible-sm">Address</label>
+                          1060 W Addison St -->
+                          <div id="yearofpassing1">{{formdata.yearofpassing1}}</div>
+                      </div>
+                      <div class="form-group col-md-3">
+                          <!-- <label class="visible-xs visible-sm">Address</label>
+                        1060 W Addison St -->
+                          <div id="percentage1">{{formdata.percentage1}}</div>
+                      </div>
+
+                  </div>
+
+                  <div class="row">
+                      <div class="form-group col-md-3">
+                          <!-- <label class="visible-xs visible-sm">First Name</label>
+                      Jake -->
+                          <label> Intermidiate: </label>
+
+
+                      </div>
+                      <div class="form-group col-md-3">
+                          <div id="university3">{{formdata.university3}}</div>
+                      </div>
+                      <div class="form-group col-md-3">
+                          <!-- <label class="visible-xs visible-sm">Address</label>
+                      1060 W Addison St -->
+                          <div id="yearofpassing3">{{formdata.yearofpassing3}}</div>
+                      </div>
+                      <div class="form-group col-md-3">
+                          <!-- <label class="visible-xs visible-sm">Address</label>
+                    1060 W Addison St -->
+                          <div id="percentage3">{{formdata.percentage3}}</div>
+                      </div>
+
+                  </div>
+                  <div class="row">
+                      <div class="form-group col-md-3">
+                          <!-- <label class="visible-xs visible-sm">First Name</label>
+                    Jake -->
+                          <label>High School: </label>
+
+
+                      </div>
+                      <div class="form-group col-md-3">
+                          <div id="university4">{{formdata.university4}}</div>
+                      </div>
+                      <div class="form-group col-md-3">
+                          <!-- <label class="visible-xs visible-sm">Address</label>
+                  1060 W Addison St -->
+                          <div id="yearofpassing4">{{formdata.yearofpassing4}}</div>
+                      </div>
+                      <div class="form-group col-md-3">
+                          <!-- <label class="visible-xs visible-sm">Address</label>
+                1060 W Addison St -->
+                          <div id="percentage4">{{formdata.percentage4}}</div>
+                      </div>
+
+                  </div>
+              </div>
+              <h4 style="color: black;">Experience:</h4>
+              <div class="jumbotron">
+
+                  <div class="row visible-md visible-lg">
+                      <div class="form-group col-md-4">
+                          <label>Organization</label>
+                      </div>
+                      <div class="form-group col-md-4">
+                          <label>Joining Date</label>
+                      </div>
+                      <div class="form-group col-md-4">
+                          <label>Releaving Date</label>
+                      </div>
+
+                  </div>
+
+                  <div class="row">
+                      <div class="form-group col-md-4">
+                          <!-- <label class="visible-xs visible-sm">First Name</label>
+                              Jake -->
+                          <div id="organization1">{{formdata.organization1}}</div>
+                      </div>
+                      <div class="form-group col-md-4">
+                          <!-- <label class="visible-xs visible-sm">Last Name</label>
+                              Elwood -->
+                          <div id="doj1">{{formdata.doj1}}</div>
+                      </div>
+                      <div class="form-group col-md-4">
+                          <!-- <label class="visible-xs visible-sm">Address</label>
+                              1060 W Addison St -->
+                          <div id="dor1">{{formdata.dor1}}</div>
+                      </div>
+
+                  </div>
+                  <div class="row">
+                      <div class="form-group col-md-4">
+                          <!-- <label class="visible-xs visible-sm">First Name</label>
+                              Jake -->
+                          <div id="organization2">{{formdata.organization2}}</div>
+                      </div>
+                      <div class="form-group col-md-4">
+                          <!-- <label class="visible-xs visible-sm">Last Name</label>
+                              Elwood -->
+                          <div id="doj2">{{formdata.doj2}}</div>
+                      </div>
+                      <div class="form-group col-md-4">
+                          <!-- <label class="visible-xs visible-sm">Address</label>
+                              1060 W Addison St -->
+                          <div id="dor2">{{formdata.dor2}}</div>
+                      </div>
+
+                  </div>
+                  <div class="row">
+                      <div class="form-group col-md-4">
+                          <!-- <label class="visible-xs visible-sm">First Name</label>
+                              Jake -->
+                          <div id="organization3">{{formdata.organization3}}</div>
+                      </div>
+                      <div class="form-group col-md-4">
+                          <!-- <label class="visible-xs visible-sm">Last Name</label>
+                              Elwood -->
+                          <div id="doj3">{{formdata.doj3}}</div>
+                      </div>
+                      <div class="form-group col-md-4">
+                          <!-- <label class="visible-xs visible-sm">Address</label>
+                              1060 W Addison St -->
+                          <div id="dor3">{{formdata.dor3}}</div>
+                      </div>
+
+                  </div>
+              </div>
+              <h4 style="color: black;">Describe Yourself:</h4>
+              <div class="jumbotron">
+                  <p id="describe">{{formdata.describe}}</p>
+              </div>
+              <h4 style="color: black;">Declaration:</h4>
+              <div class="jumbotron">
+                  <p id="declare">{{formdata.declare}}</p>
+              </div>
+
+
+          </div>
+      </div>
+  </div>
